@@ -43,6 +43,8 @@
     #include "esp32_s3_box_lite_board.h"
 #elif CONFIG_ESP32_S3_AFE_RASPBERRY_BOARD
     #include "esp32_s3_afe_raspberry_board.h"
+#elif CONFIG_ESP32_S3_DEVKIT_C
+    #include "esp32_s3_devkit_c.h"
 #else 
     #error "Please select type of dev board"
 #endif
